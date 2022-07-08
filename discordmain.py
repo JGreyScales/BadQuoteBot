@@ -2,9 +2,6 @@ import discord, os, json, time
 from scripts import scriptClass
 
 
-## credits to Andrew for teaching my python in the first place
-## credits to Greason for help with creations of some of the prompts
-
 client = discord.Client()
 sC = scriptClass()
 f = open('config.json')
